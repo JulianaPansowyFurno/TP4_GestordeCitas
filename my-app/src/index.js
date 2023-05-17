@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Citas';
 import Citas from './Citas';
+import Tarjetas from './Tarjetas';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   {/* <App /> */}
     <Citas/>
+    <Tarjetas/>
   </React.StrictMode>
 );
 

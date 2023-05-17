@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import Citas from './Citas';
+import Tarjetas from './Tarjetas';
 
 test('renders learn react link', () => 
 {
-  render(<Citas />);
+  render(<Tarjetas />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
