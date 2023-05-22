@@ -1,39 +1,24 @@
 import './index.css';
 
-function Tarjetas() {
+function Tarjetas(cita) {
   return (
     <div>
-        <div className="container">
+      <div className="container">
         <div className="row">
-      <div className="one-half column">
+          <div className="one-half column">
             <h2>Administra tus citas</h2>
             <div className="cita">
-              <p>Mascota: <span>Blacky</span></p>
-              <p>Dueño: <span>Jere</span></p>
-              <p>Fecha: <span>2023-05-08</span></p>
-              <p>Hora: <span>16:15</span></p>
-              <p>Sintomas: <span>No está comiendo</span></p><button className="button elimnar u-full-width">Eliminar ×</button>
-            </div>
-            <div className="cita">
-              <p>Mascota: <span>Nina</span></p>
-              <p>Dueño: <span>Martin</span></p>
-              <p>Fecha: <span>2021-08-05</span></p>
-              <p>Hora: <span>08:20</span></p>
-              <p>Sintomas: <span>Le duele la pierna</span></p><button className="button elimnar u-full-width">Eliminar ×</button>
-            </div>
-            <div className="cita">
-              <p>Mascota: <span>Sifon</span></p>
-              <p>Dueño: <span>Flecha</span></p>
-              <p>Fecha: <span>2023-06-10</span></p>
-              <p>Hora: <span>09:24</span></p>
-              <p>Sintomas: <span>Duerme mucho</span></p><button className="button elimnar u-full-width">Eliminar ×</button>
-            </div>            
+              <p>Mascota: <span>cita.Mascota</span></p>
+              <p>Dueño: <span>cita.Dueño</span></p>
+              <p>Fecha: <span>cita.Fecha</span></p>
+              <p>Hora: <span>cita.Hora</span></p>
+              <p>Sintomas: <span>cita.Sintomas</span></p><button className="button elimnar u-full-width">Eliminar ×</button>
+            </div>         
           </div>
-          </div>            
-          </div>
+        </div>            
+      </div>
     </div>
-
-  );
+);
 }
 
 export default Tarjetas;
