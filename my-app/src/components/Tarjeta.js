@@ -8,7 +8,12 @@ const Tarjeta = ({ contenido, onEliminar }) => {
 
     return (
       <div className="tarjeta">
-        <p>{contenido}</p>
+        <p>{contenido.NombreMascota}</p>
+        <p>{contenido.NombreDueño}</p>
+        <p>{contenido.Fecha}</p>
+        <p>{contenido.Hora}</p>
+        <p>{contenido.Sintomas}</p>
+
         <button onClick={eliminar}>Eliminar</button>
       </div>
     );
