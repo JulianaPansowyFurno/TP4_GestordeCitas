@@ -23,6 +23,7 @@ h2 {
   letter-spacing: 1px;
 }
 
+
 .lista-citas .media {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 3rem;
@@ -102,4 +103,20 @@ input[type="time"] {
   text-transform: uppercase;
   text-align: center;
   font-family: 'Staatliches', cursive;
+}
+
+
+
+.tarjeta {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 45px;
+  width: 200px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+#pepe{
+  margin-left: 20px !important;
 }

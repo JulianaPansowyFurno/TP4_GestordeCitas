@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../index.css';
 
 const Form = ({ onAgregarTarjeta }) => {
 
@@ -20,10 +20,7 @@ const Form = ({ onAgregarTarjeta }) => {
   
   return (
     <div>
-      <div>
-        <h1>ADMINISTRADOR DE PACIENTES</h1>
-      <div className="container">
-        <div className="row">
+
             <div className="one-half column">
               <h2>Crear mi Cita</h2>
                 <form onSubmit={manejoSubmit}>
@@ -36,13 +33,11 @@ const Form = ({ onAgregarTarjeta }) => {
                   <label>hora</label>
                   <input type="time" name="hora" className="u-full-width" />
                   <label>Sintomas</label>
-                  <input type="time" name="sintomas" className="u-full-width" />
+                  <input type="text" name="sintomas" className="u-full-width" />
                   <button type="submit" className="u-full-width button-primary">Agregar Cita</button>
                 </form>
-            </div>
-          </div>
+          
         </div>
-      </div>
     </div>
 
   );
