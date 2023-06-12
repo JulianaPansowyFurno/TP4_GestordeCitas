@@ -21,7 +21,7 @@ const Form = ({ onAgregarTarjeta }) => {
   return (
     <div>
 
-            <div className="one-half column">
+            <div className="one-half column" id='formSize'>
               <h2>Crear mi Cita</h2>
                 <form onSubmit={manejoSubmit}>
                   <label>Nombre Mascota</label>

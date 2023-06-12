@@ -24,7 +24,8 @@ const App = () => {
     return (
         <div>
             <Form onAgregarTarjeta={agregarTarjeta} />
-            <div className="row  mt-4" id='pepe'>
+            <h2>Administra tus citas</h2>
+            <div className="row  mt-2" id='pepe' >
                 {tarjetas.map((tarjetas) => 
                 (
                     <Tarjeta

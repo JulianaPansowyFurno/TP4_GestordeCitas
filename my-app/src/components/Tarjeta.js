@@ -10,12 +10,12 @@ const Tarjeta = ({ contenido, onEliminar, color }) => {
     const tarjetaStyle = {
       backgroundColor: color,
     };
-
+    
     return (
       <div >
        
         <div className="one-half column">
-            <h2>Administra tus citas</h2>
+            
             <div className="cita">
             <p>Mascota: <span>{contenido.NombreMascota}</span></p>
               <p>Dueño: <span>{contenido.NombreDueño}</span></p>
